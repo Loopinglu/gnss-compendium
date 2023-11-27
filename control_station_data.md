@@ -34,7 +34,7 @@ This will need to be done for all days/hours in which location data were acquire
 ```{figure} assets/etpos_kartverket.gif
 :name: etpos_kartverket
 
-Downloading all required rnx3 data for day 90 of the year 2022.
+Downloading all required rnx3 data for day 90 of the year 2022. Go to rnx3 -> 24hour -> 1sec -> [current year]. Then click on "Time" to sort the folders by time. Do so even if it looks already sorted. Then scroll down to the day for which you need the calibration data. If there are two folders for the same day, take the one which is from an earlier time of day since the other one is most likely empty. In this case, the earlier data will most likely not cover the whole day so you have to take the data that has the date of the following day. In practice it means, if your data was taken on the 6th of June, try the calibration data from the early 7th of June. (You will see later in the Leica software if it covers your measuring period or not.) Search for "lyrs*" and download all the files that come up.
 ```
 
 ### The Python way of downloading data
